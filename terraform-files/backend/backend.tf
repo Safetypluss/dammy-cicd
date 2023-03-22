@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform-state-bucket" {
-  bucket = "dammy0006"
+  bucket = "ade220323"
 
   lifecycle {
     prevent_destroy = true
