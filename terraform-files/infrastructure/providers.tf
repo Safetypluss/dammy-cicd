@@ -1,7 +1,7 @@
 # AWS provider
 
 provider "aws" {
-  region     = "us-east-1"
+  region     = "us-east-1e"
   # access_key = var.accesskey
   # secret_key = var.secretkey
 
@@ -32,9 +32,9 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "dammy"
+    bucket = "dammy0006"
     key = "global/infrastructure/terraform.tfstate"
-    region     = "us-east-1"
+    region     = "us-east-1e"
     dynamodb_table = "terraform-state-lock"
     encrypt = true
   }

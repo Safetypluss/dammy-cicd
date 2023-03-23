@@ -17,9 +17,9 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "dammy"
+    bucket = "dammy0006"
     key = "global/prometheus-final/terraform.tfstate"
-    region     = "us-east-1"
+    region     = "us-east-1e"
     dynamodb_table = "terraform-state-lock"
     encrypt = true
   }

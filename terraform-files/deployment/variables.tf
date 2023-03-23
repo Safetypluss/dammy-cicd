@@ -9,7 +9,7 @@ variable "app" {
 }
 
 variable "region" {
-  default = "us-east-1"
+  default = "us-east-1e"
 }
 
 variable "docker-image" {

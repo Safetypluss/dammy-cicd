@@ -1,7 +1,7 @@
 # AWS provider
 
 provider "aws" {
-  region     = "us-east-1"
+  region     = "us-east-1e"
 }
 
 # Kubectl Terraform provider
@@ -17,9 +17,9 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "dammy"
+    bucket = "dammy0006"
     key = "global/deployment/terraform.tfstate"
-    region     = "us-east-1"
+    region     = "us-east-1e"
     dynamodb_table = "terraform-state-lock"
     encrypt = true
   }
